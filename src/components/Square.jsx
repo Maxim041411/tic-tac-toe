@@ -1,9 +1,11 @@
 import React from 'react';
+import './Square.css'
 
 
 const Square = () => {
     return (
-        <div>
+        <div className='square'>
+        <button>X</button>
             
         </div>
     );
