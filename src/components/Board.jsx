@@ -2,20 +2,18 @@ import React from 'react';
 import './Board.css'
 import Square from './Square';
 
-const Board = () => {
+const Board = ({squares, click}) => {
     return (
         <div className='board'>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
-           <Square/>
+    {squares.map((i, index) => (
+        <Square
+            value={i}
+            onClick={() => click(index)}
+        />
+         ))}
         </div>
-    );
+    )
+            
 }
 
 export default Board;

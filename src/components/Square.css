@@ -15,7 +15,13 @@
 }
 
 .square:hover {
-    background-color: #f0f0f0;
+    background-color: #61dafb;
     transition: .3s all ease;
 
+}
+
+.active {
+    background-color: #0a0c72;
+    text-decoration: underline;
+    
 }

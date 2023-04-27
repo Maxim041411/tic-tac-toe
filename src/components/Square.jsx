@@ -1,14 +1,17 @@
 import React from 'react';
-import './Square.css'
+import s from './Square.css'
 
+const setActive = ({isActive}) => isActive ? s.active : '';
 
-const Square = () => {
+const Square = (props) => {
     return (
-        <div className='square'>
-        <button className='square'>X</button>
+        <div>
+        <button className={['square', {setActive}].join(' ')} onClick={props.onClick}>{props.value}</button>
             
         </div>
     );
 }
 
 export default Square;
+
+
