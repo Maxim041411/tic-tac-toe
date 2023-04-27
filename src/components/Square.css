@@ -12,10 +12,10 @@
 
     display: flex;
     flex-wrap: wrap;
-   
+}
 
+.square:hover {
+    background-color: #f0f0f0;
+    transition: .3s all ease;
 
-    
-    
-    
 }

@@ -5,7 +5,7 @@ import './Square.css'
 const Square = () => {
     return (
         <div className='square'>
-        <button>X</button>
+        <button className='square'>X</button>
             
         </div>
     );
