@@ -6,4 +6,33 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
+}
+
+.start_btn{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid white;
+    color:  #61dafb;
+    margin-top: 35px;
+}
+
+.start_btn:hover{
+    background-color: white;
+    color:  black;
+    transition: .3s all ease;
+}
+
+.winner{
+    width: 250px;
+    height: 55px;
+    background-color: black;
+    border: 2px solid white;
+    color:  #61dafb;
+    margin-bottom: 35px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }
